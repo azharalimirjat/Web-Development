@@ -16,4 +16,6 @@ This repository has been created as a part of my journey in learning web develop
 - JavaScript Folder
     This folder contains Javascript files used for HTML, CSS, and others as well.
 
-  # Happy coding!🌐
+
+
+# Happy coding!🌐
