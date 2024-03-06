@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <h1>Input Attribute</h1>
+        UserName: 
+        <input type="text">
+        <br>
+        Password: 
+        <input type="password">
+        <br>
+        Number: 
+        <input type="number">
+        <br>
+        Time: 
+        <input type="time">
+
+        <h1>Place Holder</h1>
+        UserName: 
+        <input type="text" placeholder="Enter your username">
+        <br>
+        Password: 
+        <input type="password" placeholder="password">
+        <br>
+
+        <h1>Label Element</h1>
+        <label for="text">
+            UserName: 
+            <input type="text" placeholder="Enter your username">
+        </label>
+        <br>
+        Password: 
+        <input type="password" placeholder="password">
+
+        <h1>Another way to write label Element</h1>
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="input username" id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="input password" id="password">
+        </div>
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" placeholder="enter your ager" id="age">
+        </div>
+
+        <h1>Button</h1>
+        <button>submit</button>
+        <button type="button">button</button>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <br>
+
+        <h1>ChechBox</h1>
+    <div>
+        <input type="checkbox" id="English" name="subjects">
+        <label for="English">English</label>
+        <br>
+        <input type="checkbox" id="Math" name="subjects">
+        <label for="Math">Math</label>
+        <br>
+        <input type="checkbox" id="Chemistry" name="subjects">
+        <label for="Chemistry">Chemistry</label>
+    </div>
+    <div>
+        <br>
+        <h1>Radio Element</h1>
+        <input type="radio" name="fruit" id="apple">
+        <label for="apple">Apple</label>
+        <br>
+        <input type="radio" name="fruit" id="Orange">
+        <label for="Orange">Orange</label>
+        <br>
+        <input type="radio" name="fruit" id="Banana">
+        <label for="Banana">Banana</label>
+    </div>
+    <div>
+        <h1>Dropdown</h1>
+        Select Your Profession: 
+        <select name="profession" id="profession">
+            <option value="engineer">Engineer</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="doctor">Doctor</option>
+        </select>
+        <div>
+            <label for="volume">Select volume level</label>
+            <input type="range" name="volume" id="volume" min="0" max="100" step="20">
+        </div>
+    </div>
+    <div>
+        <h1>TextArea</h1>
+        <label for="Textarea">Feedback: </label>
+        <textarea name="feedback" id="feedback"></textarea>
+    </div>
+    </form>
+</body>
+</html> 
